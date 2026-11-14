@@ -44,10 +44,10 @@ This portfolio takes visitors on an exploratory journey through an interactive 3
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/dharshini201/solar-system-portfolio.git
+git clone https://github.com/dharshini201/dharshini_portfolio.git
 
 # Navigate to project directory
-cd solar-system-portfolio
+cd dharshini_portfolio
 
 # Install dependencies
 npm install
@@ -80,3 +80,4 @@ npm run preview
 
 ## 📄 License
 This project is open-source and available under the [MIT License](LICENSE).
+
