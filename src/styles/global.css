@@ -1,0 +1,62 @@
+@import './animations.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  body {
+    background-color: #03040B;
+    color: #FFFFFF;
+    font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom Cosmic Effects & Utilities */
+.shadow-glowCyan {
+  box-shadow: 0 0 25px rgba(66, 217, 255, 0.35);
+}
+
+.shadow-glowGold {
+  box-shadow: 0 0 30px rgba(255, 179, 71, 0.45);
+}
+
+.shadow-glowPurple {
+  box-shadow: 0 0 25px rgba(108, 69, 168, 0.4);
+}
+
+.shadow-glass {
+  box-shadow: 0 8px 32px 0 rgba(3, 4, 11, 0.65);
+}
+
+/* Scrollbar Customization */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #03040B;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #38bdf8;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
